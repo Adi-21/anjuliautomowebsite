@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alkalami&family=Arima:wght@300&family=Arizonia&family=Berkshire+Swash&family=Cormorant+SC:wght@700&family=Courgette&family=Fira+Sans+Extra+Condensed:ital,wght@1,300&family=Fredoka+One&family=Ibarra+Real+Nova&family=Josefin+Slab:ital@1&family=Kalam&family=Kaushan+Script&family=Koulen&family=Marhey:wght@300&family=Nosifer&family=Nothing+You+Could+Do&family=Noto+Serif&family=Noto+Serif+Oriya&family=Oleo+Script+Swash+Caps:wght@700&family=Paytone+One&family=Philosopher:ital,wght@1,700&family=Playfair+Display:ital,wght@1,500&family=Rozha+One&family=Rubik+Marker+Hatch&family=Source+Sans+Pro:wght@600&family=Source+Serif+Pro:wght@300&family=Yeseva+One&display=swap');
+
+
+.dark {
+    color: #fff;
+    background: #212529;
+}
+
+.theme {
+    width: 3.5rem;
+    height: 1.5rem;
+    position: relative;
+    background: #ebebeb;
+    border-radius: 1rem;
+    box-shadow: inset 0px 5px 15px #00000066, inset 0px -5px 15px #ffffff66;
+    cursor: pointer;
+}
+
+.theme:after {
+    content: "";
+    width: 1.2rem;
+    height: 1.2rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.1rem;
+    background: linear-gradient(180deg, #777, #3a3a3a);
+    border-radius: 2rem;
+    box-shadow: 0px 5px 10px #00000033;
+}
+
+.form-switch .form-check-input{
+    margin-top: 0.8rem;
+}
+
+
+.flex{
+    justify-content: flex-end;
+}
+.nav {
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #212529;
+}
+
+.coname {
+    color: whitesmoke;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2.2rem;
+}
+
+.txt {
+    color: red;
+}
+
+.font {
+    color: whitesmoke;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: 200;
+    transition: transform .5s;
+    padding-right: 2rem;
+}
+
+.font:hover {
+    transform: scale(1.2);
+    color: firebrick;
+    text-decoration: underline #9b0000;
+}
+
+.img {
+    border-radius: 10rem;
+}
+
+#MOTOBLOT {
+    background-color: white;
+}
+
+.ser {
+    color: #ff6200;
+    font-family: 'Philosopher', sans-serif;
+    text-decoration: underline #9b0000;
+    font-size: 3rem;
+}
+
+#SERVICES {
+    color: #ff6200;
+}
+
+#services-id {
+    background-color: #c7c7c5cc;
+
+}
+
+.para {
+    color: #212529;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Noto Serif Oriya', serif;
+}
+
+.para i {
+    font-size: 3rem;
+    color: #ff0000cf;
+}
+
+.line {
+    border-left: 0.3rem solid #9b0000;
+}
+
+.frames {
+    flex-wrap: wrap;
+}
+
+.image {
+    max-width: 26vw;
+    max-height: auto;
+    border-radius: 1rem;
+}
+
+#side-menu {
+    list-style: none;
+    cursor: pointer;
+    transition: transform .3s;
+}
+
+#side-menu:hover {
+    transform: scale(1.1);
+}
+
+#MODELS {
+    background-color: white;
+}
+
+.image1 {
+    max-width: 44vw;
+    max-height: auto;
+    border-radius: 0.5rem;
+}
+
+.product span {
+    font-size: 1.5rem;
+    font-family: 'Marhey', cursive;
+    margin-left: 0.5vw;
+}
+
+.product p {
+    font-size: 1.5rem;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-left: 0.5vw;
+}
+
+.overlay {
+    display: none;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    width: 44vw;
+}
+
+.product:hover .overlay {
+    display: flex;
+    flex-direction: column;
+    color: darkorange;
+    background-color: #212529dd;
+    transition: 1s ease-in-out;
+    transform: translate3d(0rem, -7.9rem, 0rem);
+    border-top: 0.1rem solid #9b0000;
+}
+
+.bn {
+    text-align: center;
+    font-family: 'Rozha One', serif;
+    font-weight: 900;
+}
+
+.buttn {
+    color: #fff;
+    border-radius: 0.3rem;
+    background-color: #4242c4ae;
+    transition: ease-out .5s;
+}
+
+.buttn:hover {
+    color: #fff;
+    background-color: green;
+    box-shadow: inset 100px 0 0 0 green;
+}
+
+.footer {
+    /* background-color: #3e3b3bf4; */
+    background-color: #212529;
+}
+
+.icons .icon {
+    cursor: pointer;
+    text-align: center;
+    margin: 0.5rem 2rem;
+}
+
+.icons .icon i {
+    font-size: 2rem;
+    /* color: white; */
+    color: #ffff;
+}
+
+.icon:hover i {
+    color: #3636fa;
+}
+
+.icon:hover .insta {
+    color: deeppink;
+}
+
+
+.icon:hover .yt {
+    color: red;
+}
+
+.para1 {
+    color: #fff;
+    /* color: #000000; */
+    font-size: 1.5rem;
+    font-family: 'Noto Serif Oriya', serif;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:420px) {
+    .image {
+        max-width: 85vw;
+        max-height: auto;
+    }
+
+    .image1 {
+        max-width: 92vw;
+        max-height: auto;
+    }
+
+    .product {
+        padding: 1rem;
+    }
+
+    .overlay {
+        width: 92vw;
+        height: auto;
+    }
+}
